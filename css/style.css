@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(240, 234, 234);
 }
 
 .logo_header{
@@ -26,13 +26,16 @@ body{
 .contenitore{
     width: 70%;
     margin: auto;
-    background-color: white;
 }
 
 .aggiungi_task{
     padding-left: 50px;
     padding-top: 15px;
     padding-bottom: 10px;
+    background-color: white;
+    margin-bottom: 2px;
+    border-top-right-radius: 2mm;
+    border-top-left-radius: 2mm;
 }
 
 .bottone_1{
@@ -49,4 +52,67 @@ body{
     color: grey;
     padding: 5px 8px;
     border-radius: 10%;
+}
+
+.lista{
+    padding: 40px;
+    background-color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin-bottom: 20px;  
+}
+
+li{
+    margin: 10px;
+}
+
+.editorial{
+    color: white;
+    background-color: deepskyblue;
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.goals{
+    color: white;
+    background-color: rgb(60, 4, 112);
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.recruitingl{
+    color: white;
+    background-color: rgb(13, 168, 142);
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.mobile{
+    color: white;
+    background-color: rgb(199, 140, 13);
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.website{
+    color: white;
+    background-color: rgb(219, 42, 145);
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.sales{
+    color: white;
+    background-color: rgb(113, 197, 16);
+    border-radius: 20%;
+    padding: 5px 8 px;
+    font-size: smaller;
+    font-weight: bold;
 }
