@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.logo_header{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.titolo{
+    font-size: 3em;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    margin-bottom: 2px;
+}
+
+.contenitore{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.aggiungi_task{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.bottone_1{
+    background-color: turquoise;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10%;
+}
+
+.bottone_2{
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    padding: 5px 8px;
+    border-radius: 10%;
+}
